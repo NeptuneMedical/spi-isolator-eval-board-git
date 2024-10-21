@@ -151,44 +151,44 @@ DocumentPath=..\..\Users\KAANTH~1\AppData\Local\Temp\Qjz5469.xls
 DItemRevisionGUID=
 
 [Parameter1]
-Name=AssyName
-Value=PCA, DIB PROGRAMMING BOARD
-
-[Parameter2]
-Name=AssyPartNumber
-Value=400351-00
-
-[Parameter3]
-Name=AssyRev
-Value=X02
-
-[Parameter4]
-Name=FabName
-Value=PCB, DIB PROGRAMMING BOARD
-
-[Parameter5]
-Name=FabPartNumber
-Value=400352-00
-
-[Parameter6]
-Name=FabRev
-Value=X02
-
-[Parameter7]
-Name=PCB_Design_Date
-Value=29 AUG 2024
-
-[Parameter8]
-Name=PCB_Designer
+Name=ProjectDrawnBy
 Value=K. Pandhigunta
 
-[Parameter9]
+[Parameter2]
 Name=ProjectDate
 Value=29 AUG 2024
 
-[Parameter10]
-Name=ProjectDrawnBy
+[Parameter3]
+Name=PCB_Design_Date
+Value=29 AUG 2024
+
+[Parameter4]
+Name=PCB_Designer
 Value=K. Pandhigunta
+
+[Parameter5]
+Name=FabRev
+Value=X02
+
+[Parameter6]
+Name=FabPartNumber
+Value=400352-00
+
+[Parameter7]
+Name=FabName
+Value=PCB, DIB PROGRAMMING BOARD
+
+[Parameter8]
+Name=AssyRev
+Value=X02
+
+[Parameter9]
+Name=AssyPartNumber
+Value=400351-00
+
+[Parameter10]
+Name=AssyName
+Value=PCA, DIB PROGRAMMING BOARD
 
 [Configuration1]
 Name=Sources
@@ -411,6 +411,12 @@ OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=PDF3D MBA
+OutputName13=PDF3D MBA
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -677,6 +683,16 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
+OutputType11=MBAExportPARASOLID
+OutputName11=Export PARASOLID
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MBAExportSTEP
+OutputName12=Export STEP
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1083,13 +1099,13 @@ Type154=0
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
 L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
+L3=NWEENEEEWNEWNEEWN
+L4=NNENNNWEWNNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
 L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
+L9=NWWWNEEEENEWNEEWW
 L10=NWNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
 L12=WWWWNWWNWWWNWWWNN
